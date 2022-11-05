@@ -1,0 +1,173 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 40px 0px;
+}
+.content{
+    max-width: 1202px;
+    background-color: black;
+    margin: auto;
+    margin-top: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: space-between;
+  
+}
+nav
+{
+display: inline-flex;
+padding: 20px;
+
+}
+nav ul
+{
+list-style-type: none;
+padding-left: 40px;
+ 
+}
+nav li
+{
+display: inline-block;
+margin-right: 30px;
+
+}
+nav a
+{
+font-size: 1.3em;
+color: #fff;
+padding-bottom: 3px;
+text-decoration: none;
+font-family: Arial, Helvetica, sans-serif;
+}
+nav a:hover
+{
+color: orange;
+border-bottom: 4px solid orange;
+padding-bottom: 17px;
+}
+
+.deb{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(231, 228, 228);
+    border: 1px solid rgb(172, 168, 168);
+}
+.ref{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 10px auto;
+    padding: 20px 0px;
+    display: flex;
+}
+.form{
+    width: 50%;
+   font-size: 20px;
+   margin-right: 20px;
+   margin-left: 40px;
+  
+}
+.form .baf{
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+}
+.baf .sr{
+    width: 80%;
+    border-bottom:1px solid orange ;
+    padding: 20px;
+    text-align: justify;
+    font-size: 20px;
+    margin: 20px ;
+    text-transform: uppercase;
+}
+.baf select{
+        width: 95%;
+        padding: 15px;
+        margin: 10px auto;
+        font-size: 20px;
+}
+.baf input{
+    width: 90%;
+    padding: 15px;
+    margin: 10px auto;
+    font-size: 20px;
+}
+.btn{
+    width: 100%;
+    margin: 20px auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btn button{
+    width: 180px;
+    padding: 15px;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: 1px solid orange;
+    border-radius: 5px;
+    margin-right: 65px;
+    background-color: black;
+    color: orange;
+    cursor: pointer;
+    
+}
+
+.log{
+    color: #fff;
+    padding: 20px;
+    font-size: 30px;
+    text-transform: uppercase;
+   margin-left: 40px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.taf{
+    width: 50%;
+    margin-left: 40px;
+    margin-right: 80px;
+   margin-top: 60px ;
+   height: auto;
+}
+.taf .ds{
+      width: 100%;
+      padding: 20px;
+      font-size: 20px;
+      text-align: center;
+      background-color: black;
+      color: #fff;
+      text-transform: uppercase;
+      font-family: Arial, Helvetica, sans-serif;
+}
+.table{
+    border: none;
+    width: 107%;
+    margin-top: 10px;
+    
+    
+}
+.table table{
+    border-collapse: collapse;
+    width: 100%;
+
+}
+td{
+    border: 1px solid #050505;
+    text-align: center;
+    padding: 20px;
+    font-size: 15px;
+    }
+    th {
+    
+    border: 1px solid #0a0a0a;
+    text-align: justify;
+    padding: 12px;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    }
